@@ -1,0 +1,23 @@
+table, th, td{
+  border: 2px #23a923 solid;
+  border-collapse:collapse;
+}
+
+body{
+  text-align:center;
+}
+
+table{
+  margin:auto;
+}
+table.classTable{
+  empty-cells:hide;
+}
+
+form{
+  text-align:center;
+}
+
+form{
+  margin:auto;
+}

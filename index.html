@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ <header>
+   <h1>Tables and Forms</h1>
+ </header>
+
+  <section>
+    <h2>Tables</h2>
+    <table class="classTable">
+      <caption>Top 3 Favorite Things</caption>
+      <tr>
+        <th>Food</th>
+<th>Activities</th>
+        <th>Musicians</th>
+      </tr>
+      <tr>
+        <td> Shawarma </td>
+         <td> Soccer</td>
+         <td>Eminem </td>
+      </tr>
+      <tr>
+        <td> Pakistani foods</td>
+      <td>Video Games</td>
+      </tr>
+      <tr>
+<td colspan="3">
+  Breal row - span 3 cols
+</td>
+        
+      </tr>
+      <tr>
+        <td rowspan="2">
+          Food across 2 rows
+        </td>
+        <td>
+          Col2
+        </td>
+        <td>Col3</td>
+      </tr>
+      <tr>
+        <td>Col2</td>
+    <td>Col3</td>
+      </tr>
+      <tr>
+        <td>Col1</td>
+        <td></td>
+      </tr>
+    </table class="classTable">
+  </section>
+  <section>
+    
+    <h2>Forms</h2>
+
+    <form action="https://formspree.io/f/myyvvknd" method="Post">
+      <label for="name">Name</label>
+      <input required id="name" placeholder="Enter your name">
+      <br>
+      <label <for="height">Height</label>
+ <input id="height" type="text" placeholder="Enter your height">
+      <br>
+      <label for="password">Password</label>
+      <input type="password" id="password">
+      <br>
+      <p>Pick 2 favorite things</p>
+      <label for="Breakfast">Breakfast</label>
+<input type="radio" id="meal" value="Breakfast">
+      <br>
+      <label for="Lunch">Lunch</label>
+      <input type="radio" id="meal" value="Lunch">
+      <br>
+      <label for="Dinner">Dinner</label>
+      <input type="radio" id="meal" value="Dinner">
+      <br>
+      <label for=Email">Email</label>
+      <input type="email" id="email" name="Email">
+      <br>
+      <label for="date">Date</label>
+      <input type="month" id="date" name="date">
+      <br>
+      <legend>Caption for Fieldset</legend>
+      <label for="slider">Range (Slider )
+        <input type="range" min="1" max="100" id="slider" name="slider" value="20" />
+        <br>
+        <label for="excitement">Excitement</label>
+        <meter id="Excitement meter" name="excitement" value="75" min="1" max="100">Excitement</meter>
+        <br>
+<label for="Rating">Rating</label>
+        <input type="number" min="" max="100" step="10" id="rating" name="rating" value="250">
+        <br>
+        <label for="Superpower">Superpower</label>
+        <select id="superpower"  name="superpower">
+          <option value="-->Select an option<--">Select an option</option>
+          <option  value="fly">Fly</option>
+          <option value="invisibility">Invisiibility</option>
+          <option value="Super strength">SuperStrength</option>
+          <br>
+        </select>
+      <input type="submit" value="SUBMIT">
+      <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/en/3/35/Supermanflying.png">
+        <figcaption>Cool Super Hero.</figcaption>
+      </figure>
+    </form>
+  </section>
+</body>
+
+</html>
